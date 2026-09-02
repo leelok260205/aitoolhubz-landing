@@ -5,7 +5,7 @@
  * destination from this single constant, so updating the link here
  * updates the whole site.
  */
-const AFFILIATE_URL = "https://b8c255lj2i02332ymff54-bz2x.hop.clickbank.net";
+const AFFILIATE_URL = "https://523516vswdmf541a0hp-2s9yda.hop.clickbank.net";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Wire up every affiliate CTA link/button on the page.
