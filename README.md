@@ -84,18 +84,17 @@ vercel
 
 ## What's Still Needed From You
 
-1. **Affiliate tracking link** — the real ClickBank URL to paste into `AFFILIATE_URL` in
-   `js/main.js`.
-2. **Domain name** — once you have a live domain, update:
-   - `<link rel="canonical">` and Open Graph `og:image` URLs in `index.html`
-   - `robots.txt` and `sitemap.xml` (currently placeholder `https://example.com/`)
-3. **Legal pages review** — `privacy.html`, `terms.html`, `disclaimer.html`, and
+1. **Legal pages review** — `privacy.html`, `terms.html`, `disclaimer.html`, and
    `affiliate-disclosure.html` are general-purpose templates. Have them reviewed (ideally by a
    professional) and add a real contact method (email or contact form) before publishing.
-4. **Open Graph image** (optional) — a `1200×630` social preview image at `assets/og-image.png` if
+2. **Open Graph image** (optional) — a `1200×630` social preview image at `assets/og-image.png` if
    you want rich link previews on social platforms.
-5. **Analytics** (optional) — if you want visitor/click tracking, add your analytics snippet
+3. **Analytics** (optional) — if you want visitor/click tracking, add your analytics snippet
    (e.g. Plausible, Google Analytics) to the `<head>` of each HTML page.
+
+The affiliate tracking link (`AFFILIATE_URL` in `js/main.js`) and the production domain
+(`https://aitoolhubzz.com`, used in `index.html`'s canonical tag, `robots.txt`, and
+`sitemap.xml`) are already set.
 
 ## Content & Compliance Notes
 
