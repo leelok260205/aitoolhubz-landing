@@ -1,12 +1,11 @@
 /**
  * AI Tool Hub — main.js
  *
- * IMPORTANT: Replace AFFILIATE_URL below with your real ClickBank
- * (or other network) tracking link for the AI Video Bundle offer.
- * Every "Explore / View AI Video Bundle" button on the site reads
- * from this single constant, so updating it here updates the whole site.
+ * Every "Explore / View AI Video Bundle" button on the site reads its
+ * destination from this single constant, so updating the link here
+ * updates the whole site.
  */
-const AFFILIATE_URL = "https://example.com/replace-with-your-clickbank-affiliate-link";
+const AFFILIATE_URL = "https://b8c255lj2i02332ymff54-bz2x.hop.clickbank.net";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Wire up every affiliate CTA link/button on the page.
